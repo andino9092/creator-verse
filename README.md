@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - Creator Verse
 
-Submitted by: **👉🏿 Andy Li **
+Submitted by: Andy Li
 
-About this web app: **👉🏿 app description here**
+About this web app: Simple app displaying my favorite content creators and allowing for CRUD operations on creators
 
-Time spent: **👉🏿 X** hours Started: 2:06 AM 8/24
+Time spent: **👉🏿 X** hours (Started: 2:06 AM 8/24)
 
 ## Required Features
 
