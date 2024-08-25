@@ -1,12 +1,10 @@
 import "./index.css";
-import Creator from "./components/creator";
 import { useRoutes } from "react-router-dom";
 import ShowCreators from "./pages/ShowCreators";
 import AddCreator from "./pages/AddCreator";
 import ViewCreator from "./pages/ViewCreator";
 import ErrorBoundary from "./pages/ErrorBoundary";
 import EditCreator from "./pages/EditCreator";
-
 
 function App() {
   const routes = useRoutes([
@@ -39,7 +37,12 @@ function App() {
     },
   ]);
 
-  return <div>{routes}</div>;
+  return (
+    <div className="w-screen overflow-x-hidden min-h-screen bg-neutral-200 text-neutral-700">
+
+      {routes}
+    </div>
+  );
 }
 
 export default App;
