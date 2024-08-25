@@ -36,7 +36,6 @@ export default function Creator(props: {
         <div className="text-lg overflow-y-hidden text-pretty text-ellipsis">
             <p className="line-clamp-5">
                 {description}
-
             </p>
         </div>
 
